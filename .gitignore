@@ -1,0 +1,31 @@
+# ---- Office lock / temp files (Word, Excel) ----
+~$*
+*.tmp
+
+# ---- OS cruft ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- KiCad ----
+*-backups/
+*.bak
+*.kicad_prl
+*-cache.lib
+*-rescue.lib
+*-rescue.dcm
+fp-info-cache
+_autosave-*
+*.000
+*.net
+
+# ---- STM32CubeIDE / build output ----
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.elf
+*.map
+*.list
+.settings/
