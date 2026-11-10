@@ -1,4 +1,4 @@
-# MiBeesFly 🐝
+# MiBeesFly 
 
 ![MCU](https://img.shields.io/badge/MCU-STM32%20Nucleo-03234B?style=flat&logo=stmicroelectronics&logoColor=white)
 ![EDA](https://img.shields.io/badge/EDA-KiCad-314CB0?style=flat&logo=kicad&logoColor=white)
