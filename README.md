@@ -1,4 +1,5 @@
-# MiBeesFly ![Status](https://img.shields.io/badge/STATUS-WORK%20IN%20PROGRESS-E60026?style=plastic&labelColor=0D0D0D&logo=github&logoColor=white)
+# MiBeesFly [![Wiki](https://img.shields.io/badge/📖%20MORE%20INFORMATION-ON%20THE%20WIKI-2EA043?style=plastic&labelColor=0D0D0D&logo=github&logoColor=white)](https://github.com/mohanan02/MiBeesFly/wiki)
+ ![Status](https://img.shields.io/badge/STATUS-WORK%20IN%20PROGRESS-E60026?style=plastic&labelColor=0D0D0D&logo=github&logoColor=white)
 
 ![MCU](https://img.shields.io/badge/MCU-STM32%20Nucleo-03234B?style=flat&logo=stmicroelectronics&logoColor=white)
 ![EDA](https://img.shields.io/badge/EDA-KiCad-314CB0?style=flat&logo=kicad&logoColor=white)
