@@ -11,6 +11,23 @@ System architecture for the MiBeesFly flight controller: a custom carrier module
 
 ## 1. System block diagram
 
+### 1.1 Original drawing
+
+The authored source for this design. Click through for the full-resolution version.
+
+[![MiBeesFly high-level design](MiBeesFly_HighLevelDesign_v0.1_web.png)](MiBeesFly_HighLevelDesign_v0.1.png)
+
+| | |
+|---|---|
+| Source of truth | `MiBeesFly_HighLevelDesign_v0.1.png` — 6617 × 3625 |
+| Embedded above | `MiBeesFly_HighLevelDesign_v0.1_web.png` — 2400 px wide, for page load |
+
+### 1.2 Markdown version
+
+The same design as a Mermaid diagram. It renders natively on GitHub, diffs line by line in a pull
+request, and can be edited in a text editor — so it stays in step with the design as the schematic
+develops. The drawing above remains the reference for anything this simplifies.
+
 ```mermaid
 flowchart LR
     %% ---------- POWER ----------
@@ -244,4 +261,3 @@ Held in `(1)HIghLevelDesign&(NOTES)/STMN32UCLEOBOARD/`:
 - **MB1137 Altium source + `MB1137.pdf`** — ST's reference schematics. The PDF is the usable form,
   since the project is in KiCad
 - **TN1235** — ST-LINK derivatives overview
-
