@@ -205,22 +205,42 @@ later revision.
 
 ```mermaid
 flowchart TB
-    BAT["4S LiPo: 14.8 V nominal, 16.8 V full"]
-    DIST["Rated power distribution and input protection"]
-    ESC["Four ESCs and motors"]
-    B5["DFR1015 set to 5 V"]
-    B3["DFR1015 set to 3.3 V"]
-    LOAD5["Compatible 5 V modules"]
-    LOAD3["Compatible 3.3 V sensors and logic"]
-    BOARD["Nucleo supply input: configuration TBD"]
+    BAT["`4S LiPo
+14.8 V nominal
+16.8 V full`"]
+
+    DIST["`Rated power
+distribution
+Input protection`"]
+
+    ESC["`Four ESCs
+and motors`"]
+
+    B5["`DFR1015
+5 V output`"]
+
+    B3["`DFR1015
+3.3 V output`"]
+
+    LOAD5["`Compatible
+5 V modules`"]
+
+    LOAD3["`Compatible
+3.3 V sensors
+and logic`"]
+
+    BOARD["`Nucleo supply
+Configuration TBD`"]
 
     BAT --> DIST
     DIST --> ESC
     DIST --> B5
     DIST --> B3
+
     B5 --> LOAD5
     B3 --> LOAD3
-    B3 -.->|"Original proposal: review before use"| BOARD
+
+    B3 -.->|"Proposed only"| BOARD
 ```
 
 Both logic rails come from dedicated DC-DC converters, not from the ESC BECs.
