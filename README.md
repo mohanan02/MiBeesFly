@@ -121,37 +121,50 @@ This diagram shows logical connections. It does not assign MCU pins, connector p
 ```mermaid
 flowchart TB
     subgraph SENSORS["Sensor inputs"]
-        IMU["BMI323 IMU"]
-        SLOW["Magnetometer and BMP390"]
-        GNSS["BE-882i GNSS"]
-        FLOW["3901-L0X flow and range"]
+        IMU["`BMI323
+IMU`"]
+        SLOW["`Magnetometer
+BMP390`"]
+        GNSS["`BE-882i
+GNSS`"]
+        FLOW["`3901-L0X
+Flow and range`"]
     end
 
-    MCU["NUCLEO-F767ZI on custom carrier"]
+    MCU["`NUCLEO-F767ZI
+Custom carrier`"]
 
     subgraph IO["Control and expansion"]
-        RX["ExpressLRS receiver"]
-        SD["SD-card logging"]
-        CAN["TCAN3403 transceiver"]
+        RX["`ExpressLRS
+Receiver`"]
+        SD["`SD card
+Logging`"]
+        CAN["`TCAN3403
+Transceiver`"]
     end
 
-    ESC["Four ESC signal inputs"]
+    ESC["`Four ESCs
+Signal inputs`"]
     MOTORS["Four motors"]
-    NODE["Optional external CAN node"]
+    NODE["`External node
+Optional`"]
 
-    IMU -->|"SPI and data-ready interrupt"| MCU
+    IMU -->|"SPI + DRDY"| MCU
     SLOW -->|"I2C"| MCU
-    GNSS -->|"UART navigation data"| MCU
-    FLOW -->|"UART MSP v2"| MCU
-    RX <-->|"UART CRSF"| MCU
-    MCU -->|"Dedicated SPI for logging"| SD
-    MCU <-->|"Classical CAN TX and RX"| CAN
-    CAN <-.->|"CANH and CANL"| NODE
-    MCU -->|"Four timer outputs"| ESC
-    ESC -->|"Three-phase motor power"| MOTORS
+    GNSS -->|"UART"| MCU
+    FLOW -->|"UART / MSP v2"| MCU
+
+    RX <-->|"UART / CRSF"| MCU
+    MCU -->|"SPI2"| SD
+    MCU <-->|"Classical CAN"| CAN
+    CAN <-.->|"CANH / CANL"| NODE
+
+    MCU -->|"PWM x4"| ESC
+    ESC -->|"3-phase power"| MOTORS
 
     classDef compute fill:#dce8ff,stroke:#365eab,color:#111
     classDef sensors fill:#e2f3e6,stroke:#387847,color:#111
+
     class MCU compute
     class IMU,SLOW,GNSS,FLOW sensors
 ```
