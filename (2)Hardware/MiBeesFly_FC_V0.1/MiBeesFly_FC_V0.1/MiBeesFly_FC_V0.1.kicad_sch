@@ -11,6 +11,319 @@
 		(comment 4 "Author:mohanan02")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic_MountingPin:Conn_01x06_MountingPin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_MountingPin"
+				(at 1.27 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_MountingPin_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -9.652) (xy 1.016 -9.652)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -9.271 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Module:NUCLEO144-F767ZI"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2824,92 +3137,92 @@
 		)
 	)
 	(junction
-		(at 184.15 242.57)
+		(at 181.61 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00c1e617-eaba-45a1-8daa-8569986bb274")
 	)
 	(junction
-		(at 214.63 242.57)
+		(at 212.09 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fdaab99-95c5-494d-bbb8-55bc1f30f3c5")
 	)
 	(junction
-		(at 209.55 242.57)
+		(at 207.01 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16f86d68-02ef-4a89-97bc-ff8af01dbaf9")
 	)
 	(junction
-		(at 194.31 242.57)
+		(at 191.77 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "262e8b5f-b13a-4ab9-8bd0-cc94026e13e4")
 	)
 	(junction
-		(at 212.09 242.57)
+		(at 209.55 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3395efb5-1509-4687-8757-4b8b5b9b8f0d")
 	)
 	(junction
-		(at 207.01 242.57)
+		(at 204.47 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33e691c4-695b-4379-9296-210a5bb6037b")
 	)
 	(junction
-		(at 181.61 242.57)
+		(at 179.07 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7338d371-c144-4333-815b-39c6ce4bed3e")
 	)
 	(junction
-		(at 189.23 242.57)
+		(at 186.69 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99a70bc9-0cc6-4a8c-859a-65f40cd6ddd2")
 	)
 	(junction
-		(at 204.47 242.57)
+		(at 201.93 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a26d4466-d518-4698-a13a-22110a4d9e36")
 	)
 	(junction
-		(at 196.85 242.57)
+		(at 194.31 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5c74d0b-f2ac-4fe5-ba88-94a6641960d5")
 	)
 	(junction
-		(at 199.39 242.57)
+		(at 196.85 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb84583e-5d6d-4947-8c3e-f1f43acc33a7")
 	)
 	(junction
-		(at 186.69 242.57)
+		(at 184.15 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e06cc1e7-47d2-4d0d-a387-2f0ed99eea8b")
 	)
 	(junction
-		(at 201.93 242.57)
+		(at 199.39 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e66ef134-0a0d-43b3-a8ea-d28ce7e59f25")
 	)
 	(junction
-		(at 191.77 242.57)
+		(at 189.23 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff0a2769-d532-4c96-96e5-e51e7cc195a1")
 	)
 	(wire
 		(pts
-			(xy 191.77 233.68) (xy 191.77 242.57)
+			(xy 189.23 236.22) (xy 189.23 245.11)
 		)
 		(stroke
 			(width 0)
@@ -2919,7 +3232,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 233.68) (xy 179.07 242.57)
+			(xy 176.53 236.22) (xy 176.53 245.11)
 		)
 		(stroke
 			(width 0)
@@ -2929,7 +3242,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 233.68) (xy 196.85 242.57)
+			(xy 194.31 236.22) (xy 194.31 245.11)
 		)
 		(stroke
 			(width 0)
@@ -2939,7 +3252,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 242.57) (xy 209.55 242.57)
+			(xy 204.47 245.11) (xy 207.01 245.11)
 		)
 		(stroke
 			(width 0)
@@ -2949,7 +3262,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 242.57) (xy 184.15 242.57)
+			(xy 179.07 245.11) (xy 181.61 245.11)
 		)
 		(stroke
 			(width 0)
@@ -2959,7 +3272,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 242.57) (xy 196.85 242.57)
+			(xy 191.77 245.11) (xy 194.31 245.11)
 		)
 		(stroke
 			(width 0)
@@ -2969,7 +3282,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 233.68) (xy 201.93 242.57)
+			(xy 199.39 236.22) (xy 199.39 245.11)
 		)
 		(stroke
 			(width 0)
@@ -2979,7 +3292,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 242.57) (xy 181.61 242.57)
+			(xy 176.53 245.11) (xy 179.07 245.11)
 		)
 		(stroke
 			(width 0)
@@ -2989,7 +3302,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 233.68) (xy 204.47 242.57)
+			(xy 201.93 236.22) (xy 201.93 245.11)
 		)
 		(stroke
 			(width 0)
@@ -2999,7 +3312,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 242.57) (xy 214.63 242.57)
+			(xy 209.55 245.11) (xy 212.09 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3009,7 +3322,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 242.57) (xy 204.47 242.57)
+			(xy 199.39 245.11) (xy 201.93 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3019,7 +3332,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 233.68) (xy 189.23 242.57)
+			(xy 186.69 236.22) (xy 186.69 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3029,7 +3342,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 233.68) (xy 184.15 242.57)
+			(xy 181.61 236.22) (xy 181.61 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3039,7 +3352,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 242.57) (xy 214.63 233.68)
+			(xy 212.09 245.11) (xy 212.09 236.22)
 		)
 		(stroke
 			(width 0)
@@ -3049,7 +3362,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 242.57) (xy 194.31 242.57)
+			(xy 189.23 245.11) (xy 191.77 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3059,7 +3372,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 233.68) (xy 199.39 242.57)
+			(xy 196.85 236.22) (xy 196.85 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3069,7 +3382,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 233.68) (xy 186.69 242.57)
+			(xy 184.15 236.22) (xy 184.15 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3079,7 +3392,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 233.68) (xy 181.61 242.57)
+			(xy 179.07 236.22) (xy 179.07 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3089,7 +3402,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 242.57) (xy 207.01 242.57)
+			(xy 201.93 245.11) (xy 204.47 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3099,7 +3412,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 233.68) (xy 194.31 242.57)
+			(xy 191.77 236.22) (xy 191.77 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3109,7 +3422,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 242.57) (xy 212.09 242.57)
+			(xy 207.01 245.11) (xy 209.55 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3119,7 +3432,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 233.68) (xy 212.09 242.57)
+			(xy 209.55 236.22) (xy 209.55 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3129,7 +3442,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 242.57) (xy 191.77 242.57)
+			(xy 186.69 245.11) (xy 189.23 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3139,7 +3452,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 242.57) (xy 189.23 242.57)
+			(xy 184.15 245.11) (xy 186.69 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3149,7 +3462,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 242.57) (xy 186.69 242.57)
+			(xy 181.61 245.11) (xy 184.15 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3159,7 +3472,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 242.57) (xy 199.39 242.57)
+			(xy 194.31 245.11) (xy 196.85 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3169,7 +3482,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 233.68) (xy 209.55 242.57)
+			(xy 207.01 236.22) (xy 207.01 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3179,7 +3492,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 233.68) (xy 207.01 242.57)
+			(xy 204.47 236.22) (xy 204.47 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3189,7 +3502,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 242.57) (xy 201.93 242.57)
+			(xy 196.85 245.11) (xy 199.39 245.11)
 		)
 		(stroke
 			(width 0)
@@ -3198,8 +3511,105 @@
 		(uuid "f6ff25e3-383e-40e1-ab1f-41d2932d3cab")
 	)
 	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin")
+		(at 320.04 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8c39239-3a42-4865-a0ae-cc4e0a240033")
+		(property "Reference" "J1"
+			(at 322.58 96.8755 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06_MountingPin"
+			(at 322.58 99.4155 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal"
+			(at 320.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 320.04 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a5068491-d9e7-47c7-9944-5e181feae41c")
+		)
+		(pin "5"
+			(uuid "0978ece6-ebf3-413a-b5ba-719f5968fc1d")
+		)
+		(pin "1"
+			(uuid "8a4002a1-793e-4fdc-8bf7-ef33c4f8c9a6")
+		)
+		(pin "4"
+			(uuid "207eecf3-c109-40ef-86e0-f21497275371")
+		)
+		(pin "3"
+			(uuid "67409a23-6427-4ae9-a41c-4b5c93f00964")
+		)
+		(pin "MP"
+			(uuid "3de1f2dd-651d-4c2a-96d4-d9033f7e4309")
+		)
+		(pin "6"
+			(uuid "13eb9f5b-4a99-4784-a94d-8902909de2b8")
+		)
+		(instances
+			(project "MiBeesFly_FC_V0.1"
+				(path "/a95594ef-a459-4238-9c33-5091279aeb56"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_Module:NUCLEO144-F767ZI")
-		(at 199.39 137.16 0)
+		(at 196.85 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3210,7 +3620,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4dc5005-e260-4a47-b0b9-85596542150a")
 		(property "Reference" "U1"
-			(at 221.8533 40.64 0)
+			(at 219.3133 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3221,7 +3631,7 @@
 			)
 		)
 		(property "Value" "NUCLEO144-F767ZI"
-			(at 221.8533 43.18 0)
+			(at 219.3133 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3232,7 +3642,7 @@
 			)
 		)
 		(property "Footprint" "Module:ST_Morpho_Connector_144_STLink"
-			(at 220.98 229.87 0)
+			(at 218.44 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3244,7 +3654,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-stmicroelectronics.pdf"
-			(at 176.53 129.54 0)
+			(at 173.99 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3255,7 +3665,7 @@
 			)
 		)
 		(property "Description" "Nucleo 144 Development Board with STM32F767ZIT6 MCU, 512kB RAM, 2Mb FLASH"
-			(at 199.39 137.16 0)
+			(at 196.85 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3708,7 +4118,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 242.57 0)
+		(at 212.09 245.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3719,7 +4129,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2cd3ef6-6186-4518-bfe1-066461532291")
 		(property "Reference" "#PWR01"
-			(at 214.63 248.92 0)
+			(at 212.09 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3730,7 +4140,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 247.65 0)
+			(at 212.09 250.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3740,7 +4150,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 242.57 0)
+			(at 212.09 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3751,7 +4161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 242.57 0)
+			(at 212.09 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3762,7 +4172,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 242.57 0)
+			(at 212.09 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

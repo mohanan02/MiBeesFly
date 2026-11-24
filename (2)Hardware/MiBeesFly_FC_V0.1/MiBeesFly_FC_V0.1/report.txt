@@ -1,0 +1,3 @@
+Update symbol U1 from 'MCU_Module:NUCLEO144-F767ZI' to 'MCU_Module:NUCLEO144-F767ZI': OK
+Update symbol #PWR01 from 'power:GND' to 'power:GND': OK
+Update symbol J2 from 'Connector_Generic_MountingPin:Conn_01x06_MountingPin' to 'Connector_Generic_MountingPin:Conn_01x06_MountingPin': OK
