@@ -3147,7 +3147,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -5.08 0)
+					(at 10.16 -5.08 180)
 					(length 2.54)
 					(name "RX"
 						(effects
@@ -3165,7 +3165,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -1.27 0)
+					(at 10.16 -1.27 180)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -3183,7 +3183,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 2.54 0)
+					(at 10.16 2.54 180)
 					(length 2.54)
 					(name "SCL"
 						(effects
@@ -3695,7 +3695,7 @@
 	)
 	(symbol
 		(lib_id "MiBeesFly:BE-882i")
-		(at 313.69 147.32 0)
+		(at 303.53 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3703,20 +3703,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "083faf06-9294-4d39-962f-d54a7201f35f")
-		(property "Reference" "U?"
-			(at 315.976 141.986 0)
+		(fields_autoplaced yes)
+		(uuid "8a31ee5e-d372-4039-849c-d03001438254")
+		(property "Reference" "U2"
+			(at 307.34 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" ""
-			(at 313.69 147.32 0)
+			(at 303.53 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3726,7 +3726,7 @@
 			)
 		)
 		(property "Footprint" "MiBeesFly:BE-882i"
-			(at 313.69 147.32 0)
+			(at 303.53 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3737,7 +3737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 147.32 0)
+			(at 303.53 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3748,7 +3748,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 313.69 147.32 0)
+			(at 303.53 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3758,28 +3758,28 @@
 				)
 			)
 		)
-		(pin "3"
-			(uuid "987455ff-7e8a-42b9-98bb-f1fd965b13fa")
-		)
 		(pin "5"
-			(uuid "9ac68f76-fb9e-4187-b478-0c0c9a5c6e41")
-		)
-		(pin "4"
-			(uuid "609b0cab-05b5-4178-80d6-87c8fdd901de")
-		)
-		(pin "6"
-			(uuid "0e8e6fd2-c275-4868-b1e5-412514153cc8")
+			(uuid "dfc9e683-4886-4924-80c1-f0c1112d36ae")
 		)
 		(pin "1"
-			(uuid "afb9df7a-88a7-42a6-8308-02da66e18775")
+			(uuid "c300b2a1-ba52-4019-9985-d738118c1a4e")
+		)
+		(pin "3"
+			(uuid "dc1bc952-6112-4af5-8cc1-86b3b95cd9af")
+		)
+		(pin "4"
+			(uuid "77ca3690-d41b-4a4e-94c4-4d0805be45e8")
+		)
+		(pin "6"
+			(uuid "9f6b47f5-4caa-4bc8-85a4-d9d91d8efd31")
 		)
 		(pin "2"
-			(uuid "132ad38b-7a3f-43ab-b37e-48a6095d7e51")
+			(uuid "f339d598-fcaf-4e68-9fe9-17693f54e1c4")
 		)
 		(instances
 			(project "MiBeesFly_FC_V0.1"
 				(path "/a95594ef-a459-4238-9c33-5091279aeb56"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)

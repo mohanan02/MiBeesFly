@@ -3001,7 +3001,7 @@
 	(footprint "MiBeesFly:BE-882i"
 		(layer "F.Cu")
 		(uuid "fd9d8f83-4e3a-4cd6-a09c-704075e23dfb")
-		(at 167 56.6)
+		(at 153 56.5)
 		(property "Reference" "U2"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -3053,7 +3053,7 @@
 				)
 			)
 		)
-		(path "/083faf06-9294-4d39-962f-d54a7201f35f")
+		(path "/8a31ee5e-d372-4039-849c-d03001438254")
 		(sheetname "/")
 		(sheetfile "MiBeesFly_FC_V0.1.kicad_sch")
 		(units
