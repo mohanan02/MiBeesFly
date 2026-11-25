@@ -1,6 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "Library_1") (type "KiCad") (uri "C:/Users/hanan/Downloads/Library_1.pretty") (options "") (descr ""))
-	(lib (name "MiBeesFly") (type "KiCad") (uri "${KIPRJMOD}/MiBeesFly.pretty") (options "") (descr ""))
-	(lib (name "MiBeesFly_FC_V0") (type "KiCad") (uri "${KIPRJMOD}/MiBeesFly.pretty/MiBeesFly_FC_V0.pretty") (options "") (descr ""))
+	(lib (name "MiBeesFly") (type "KiCad") (uri "C:/Users/hanan/Documents/GitHub/MiBeesFly/(2)Hardware/Footprint&Symbol/MiBeesFly.pretty") (options "") (descr ""))
 )
