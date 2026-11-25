@@ -1,0 +1,115 @@
+(footprint " MMC5983 MA "
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "MMC5983 MA"
+		(at 0.525 -1.225 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2fe94ccf-c86d-429c-ad3d-e34fa54b923a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MMC5983 MA"
+		(at 0.525 0.275 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6b3d7fa9-6a31-4c74-a1fe-02161f7c5e7f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adb5612d-f83b-4d92-aab9-9e8da3b50655")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92308434-0ec9-4249-8dc4-2739c7589257")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "MMC5983 MA"
+		(at 0.525 1.775 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8a4b2c8f-e0ed-404e-9481-4f35d00a6e7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -6.3 -3.82)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "9cde1c92-d339-4bd1-9477-be9c05a47323")
+	)
+	(pad "2" thru_hole circle
+		(at -6.3 -1.28)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "51ec4dbf-8f33-4773-8cec-a78e2ccf2b4a")
+	)
+	(pad "3" thru_hole circle
+		(at -6.3 1.26)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0fbef349-ef99-4dd0-93b2-2aaa195fd8a9")
+	)
+	(pad "4" thru_hole circle
+		(at -6.3 3.8)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d86467f1-d49f-4d63-bf6b-f3812e9a8d6d")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/hanan/Documents/GitHub/MiBeesFly/(2)Hardware/Footprint&Symbol/STEP/MMC5983MA-Breakout-15x10.step"
+		(offset
+			(xyz -6.4 3.8 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
