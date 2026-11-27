@@ -470,7 +470,8 @@
   "libraries": {
     "pinned_footprint_libs": [
       "MiBeesFly",
-      "MiBeesFly_FC_V0"
+      "MiBeesFly_FC_V0",
+      "Connector_JST"
     ],
     "pinned_symbol_libs": []
   },
@@ -635,7 +636,7 @@
         "uuid": "a95594ef-a459-4238-9c33-5091279aeb56"
       }
     ],
-    "used_designators": "J1-2",
+    "used_designators": "J1-2,U3-5",
     "variants": []
   },
   "sheets": [

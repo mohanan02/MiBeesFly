@@ -1,4 +1,4 @@
-(footprint " MMC5983 MA "
+(footprint "MMC5983 MA"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -7,7 +7,7 @@
 		(at 0.525 -1.225 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "2fe94ccf-c86d-429c-ad3d-e34fa54b923a")
+		(uuid "9491b504-d33f-4f10-a373-de96889a59b3")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0.525 0.275 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "6b3d7fa9-6a31-4c74-a1fe-02161f7c5e7f")
+		(uuid "97a2117a-1029-49cc-8feb-948b26374b6d")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "adb5612d-f83b-4d92-aab9-9e8da3b50655")
+		(uuid "308a808d-384b-434b-acbd-f7bc1b1cfb40")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "92308434-0ec9-4249-8dc4-2739c7589257")
+		(uuid "e5b715df-3a71-436c-90c3-99afaac06fa8")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		(at 0.525 1.775 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "8a4b2c8f-e0ed-404e-9481-4f35d00a6e7c")
+		(uuid "e982a81d-31ea-465b-8cbe-7b025622a8e0")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +74,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "9cde1c92-d339-4bd1-9477-be9c05a47323")
+		(uuid "62f8d7f5-c892-4e55-89c1-e08c10b7c75c")
 	)
 	(pad "2" thru_hole circle
 		(at -6.3 -1.28)
@@ -82,7 +82,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "51ec4dbf-8f33-4773-8cec-a78e2ccf2b4a")
+		(uuid "08b10ad6-13e0-4c01-9c4e-ea67cb219bd8")
 	)
 	(pad "3" thru_hole circle
 		(at -6.3 1.26)
@@ -90,7 +90,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "0fbef349-ef99-4dd0-93b2-2aaa195fd8a9")
+		(uuid "77c0007f-19fa-4d0c-b890-e59b93d5ae8e")
 	)
 	(pad "4" thru_hole circle
 		(at -6.3 3.8)
@@ -98,7 +98,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "d86467f1-d49f-4d63-bf6b-f3812e9a8d6d")
+		(uuid "1953ef07-34d8-45c7-9aaa-eb3bad4df4ad")
 	)
 	(embedded_fonts no)
 	(model "C:/Users/hanan/Documents/GitHub/MiBeesFly/(2)Hardware/Footprint&Symbol/STEP/MMC5983MA-Breakout-15x10.step"
