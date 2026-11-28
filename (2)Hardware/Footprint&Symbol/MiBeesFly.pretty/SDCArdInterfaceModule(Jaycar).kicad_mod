@@ -1,13 +1,13 @@
-(footprint "Untitled"
+(footprint "SDCArdInterfaceModule(Jaycar)"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(property "Reference" "XR1 Nano"
-		(at 6.45 -0.275 0)
+	(property "Reference" "SDCardInterfaceModule"
+		(at 14.6 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "db297918-d404-42d3-99fa-3a8a6f53b640")
+		(uuid "af7ee40e-edab-40dc-9af7-9932e32e1bce")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "XR1 Nano"
-		(at 6.45 1.225 0)
+	(property "Value" "SDCArdInterfaceModule(Jaycar)"
+		(at 14.6 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "81b47bd6-c4e1-427c-a53a-f3dad81f45bd")
+		(uuid "758dfc9f-01c9-47c8-9122-2eee30b76540")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "64c6c545-ddd7-4a9f-b7f8-6ee421d5875b")
+		(uuid "2ed1ed41-b44c-4b53-bf1d-ee80b6102ff6")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0f2cbc31-5de6-4e87-8c3b-780845e30560")
+		(uuid "99ceebd1-3421-4466-83b0-7dc5b9a8bc02")
 		(effects
 			(font
 				(size 1 1)
@@ -55,11 +55,11 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_text user "XR1 Nano"
-		(at 6.45 2.725 0)
+	(fp_text user "SDCardInterfaceModule"
+		(at 14.6 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "8b072bc4-dbee-465b-8cd2-4019f6649ed4")
+		(uuid "46a84ddf-cd5d-4fa4-8d45-3eb8c897024c")
 		(effects
 			(font
 				(size 1 1)
@@ -68,51 +68,58 @@
 		)
 	)
 	(pad "1" thru_hole roundrect
+		(at 0 -5.08)
+		(size 2.54 1.27)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "5e1a5ada-7c05-4054-9d5f-9e2095966455")
+	)
+	(pad "2" thru_hole roundrect
 		(at 0 -2.54)
 		(size 2.54 1.27)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "2b73fd0f-656e-44d4-b1a9-83d7e25f5817")
+		(uuid "f40751e1-1ac5-4a9a-8b9f-c561396fc837")
 	)
-	(pad "2" thru_hole roundrect
+	(pad "3" thru_hole roundrect
 		(at 0 0)
 		(size 2.54 1.27)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "ac0701ef-040c-4d81-94bb-179a246faf30")
+		(uuid "9b8aa669-9af7-47f2-bf56-53528fe48da4")
 	)
-	(pad "3" thru_hole roundrect
+	(pad "4" thru_hole roundrect
 		(at 0 2.54)
 		(size 2.54 1.27)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "2a84c5c4-80b0-4686-b74c-7d96b6ed06c2")
+		(uuid "066351cb-a93d-4e4e-ace3-9bc6175380a3")
 	)
-	(pad "4" thru_hole roundrect
+	(pad "5" thru_hole roundrect
 		(at 0 5.08)
 		(size 2.54 1.27)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "73b18405-aad7-4278-935e-d352d2f66e40")
+		(uuid "127897c8-8d12-48e2-bf58-d048650cfd37")
+	)
+	(pad "6" thru_hole roundrect
+		(at 0 7.62)
+		(size 2.54 1.27)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "e2f1f3f9-aa0e-4348-9a49-8f03a5f86ada")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/hanan/Documents/GitHub/MiBeesFly/(2)Hardware/Footprint&Symbol/STEP/RadioMaster_XR1_1x04_P2.54mm.step"
-		(offset
-			(xyz 0 2.5 0.5)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 90)
-		)
-	)
 )
